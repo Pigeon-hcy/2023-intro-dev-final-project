@@ -18,5 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Spr_nut","order":1,"path":"sprites/Spr_nut/Spr_nut.yy",},
+    {"name":"Spr_ground","order":2,"path":"sprites/Spr_ground/Spr_ground.yy",},
+    {"name":"Obj_ground","order":1,"path":"objects/Obj_ground/Obj_ground.yy",},
   ],
 }

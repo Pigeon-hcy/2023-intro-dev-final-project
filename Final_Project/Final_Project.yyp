@@ -35,6 +35,8 @@
   },
   "resources": [
     {"id":{"name":"Spr_nut","path":"sprites/Spr_nut/Spr_nut.yy",},},
+    {"id":{"name":"Spr_ground","path":"sprites/Spr_ground/Spr_ground.yy",},},
+    {"id":{"name":"Obj_ground","path":"objects/Obj_ground/Obj_ground.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
