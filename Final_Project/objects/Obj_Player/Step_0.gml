@@ -39,11 +39,4 @@ if(place_meeting(x,y + 5,Obj_ground))
 	y_speed -= 0.5;
 }
 
-if(y > room_height + 50)
-{
-	y_speed = 0;
-	x = x - 300
-	y = room_height /2
-}
-
 show_debug_message(player_direction);

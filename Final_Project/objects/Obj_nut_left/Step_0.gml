@@ -1,5 +1,5 @@
-//increase the angle usieng x can make nut nail on the wall when don't move
-angel = x;
+//increase the angle
+angel += 20;
 //spin the angle
 image_angle = angel;
 //make the nut fall
