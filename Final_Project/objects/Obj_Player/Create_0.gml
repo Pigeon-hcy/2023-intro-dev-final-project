@@ -4,3 +4,5 @@ x_speed = 0;
 y_speed = 0
 //how many time player can jump
 jump_time = true;
+//direction of player
+player_direction = "R";

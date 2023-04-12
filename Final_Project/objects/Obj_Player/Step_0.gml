@@ -6,7 +6,8 @@ y -= y_speed;
 //press D to keep increase the speed of the x_speed until 10
 if(keyboard_check(ord("D")) && x_speed < 10)
 {
-	x_speed += 0.5;
+	x_speed += 1;
+	player_direction = "R";
 }
 
 //reset the x_speed to 0 when player release D
@@ -18,7 +19,8 @@ if(x_speed > 0 && !keyboard_check(ord("D")))
 //press A to keep increase the speed of the x_speed until -10
 if(keyboard_check(ord("A")) && x_speed > -10)
 {
-	x_speed -= 0.5;
+	x_speed -= 1;
+	player_direction = "L";
 }
 
 //reset the x_speed to 0 when player release D
@@ -28,7 +30,7 @@ if(x_speed < 0 && !keyboard_check(ord("A")))
 }
 
 //fall on ground when player on the air
-if(place_meeting(x,y + 10,Obj_ground))
+if(place_meeting(x,y + 5,Obj_ground))
 {
 	y_speed = 0;
 	jump_time = true;
@@ -36,3 +38,5 @@ if(place_meeting(x,y + 10,Obj_ground))
 {
 	y_speed -= 0.5;
 }
+
+show_debug_message(player_direction);
