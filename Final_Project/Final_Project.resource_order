@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_Enemy","order":5,"path":"objects/Obj_Enemy/Obj_Enemy.yy",},
+    {"name":"PS_Hit2","order":1,"path":"particles/PS_Hit2/PS_Hit2.yy",},
     {"name":"Obj_nut_right","order":3,"path":"objects/Obj_nut_right/Obj_nut_right.yy",},
     {"name":"Spr_nut","order":1,"path":"sprites/Spr_nut/Spr_nut.yy",},
     {"name":"Spr_ground","order":2,"path":"sprites/Spr_ground/Spr_ground.yy",},
@@ -25,6 +26,7 @@
     {"name":"Obj_ground","order":1,"path":"objects/Obj_ground/Obj_ground.yy",},
     {"name":"Obj_plstform","order":2,"path":"objects/Obj_plstform/Obj_plstform.yy",},
     {"name":"Obj_nut_left","order":4,"path":"objects/Obj_nut_left/Obj_nut_left.yy",},
+    {"name":"PS_Circle","order":2,"path":"particles/PS_Circle/PS_Circle.yy",},
     {"name":"Spr_platform","order":3,"path":"sprites/Spr_platform/Spr_platform.yy",},
   ],
 }

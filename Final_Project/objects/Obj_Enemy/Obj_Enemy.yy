@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Spr_enemy",
     "path": "sprites/Spr_enemy/Spr_enemy.yy",
