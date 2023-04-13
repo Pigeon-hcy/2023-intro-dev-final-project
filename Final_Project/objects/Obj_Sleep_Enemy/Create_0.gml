@@ -14,3 +14,4 @@ move_speed = 3;
 
 //health of the enemy
 HP = 5;
+

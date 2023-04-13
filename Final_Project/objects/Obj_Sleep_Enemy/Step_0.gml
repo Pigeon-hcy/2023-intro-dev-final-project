@@ -58,3 +58,4 @@ if(HP < 0)
 	layer_set_visible("Effect_1",true);
 	
 }
+

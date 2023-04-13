@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_Sleep_Enemy","order":5,"path":"objects/Obj_Sleep_Enemy/Obj_Sleep_Enemy.yy",},
+    {"name":"Spr_wall","order":10,"path":"sprites/Spr_wall/Spr_wall.yy",},
     {"name":"PS_Start_Ps","order":1,"path":"particles/PS_Start_Ps/PS_Start_Ps.yy",},
     {"name":"Obj_coin","order":6,"path":"objects/Obj_coin/Obj_coin.yy",},
     {"name":"Obj_nut_right","order":3,"path":"objects/Obj_nut_right/Obj_nut_right.yy",},
@@ -30,6 +31,8 @@
     {"name":"Obj_ground","order":1,"path":"objects/Obj_ground/Obj_ground.yy",},
     {"name":"PS_10_Score","order":3,"path":"particles/PS_10_Score/PS_10_Score.yy",},
     {"name":"Obj_plstform","order":2,"path":"objects/Obj_plstform/Obj_plstform.yy",},
+    {"name":"Obj_wall","order":7,"path":"objects/Obj_wall/Obj_wall.yy",},
+    {"name":"Spr_testtile","order":9,"path":"sprites/Spr_testtile/Spr_testtile.yy",},
     {"name":"Obj_nut_left","order":4,"path":"objects/Obj_nut_left/Obj_nut_left.yy",},
     {"name":"Spr_enemy_attack","order":6,"path":"sprites/Spr_enemy_attack/Spr_enemy_attack.yy",},
     {"name":"PS_Circle","order":2,"path":"particles/PS_Circle/PS_Circle.yy",},

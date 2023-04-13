@@ -39,6 +39,11 @@ if(place_meeting(x,y + 5,Obj_ground) || place_meeting(x,y + 5,Obj_plstform))
 	y_speed -= 0.5;
 }
 
+if(place_meeting(x + x_speed,y,Obj_wall))
+{
+	x_speed = 0
+}
+
 if(y > room_height + 50)
 {
 	y_speed = 0;

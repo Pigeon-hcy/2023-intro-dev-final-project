@@ -4,7 +4,7 @@ angel = x;
 image_angle = angel;
 //make the nut fall
 y_speed --;
-
+life_time --;
 
 //make the x_speed decrease
 if(x_speed != 0)
@@ -17,7 +17,7 @@ y -= y_speed;
 x -= x_speed;
 
 //destory the nut when x_speed  = 0
-if (x_speed = 0)
+if (x_speed = 0 || life_time = 0)
 {
 	instance_destroy();
 }
