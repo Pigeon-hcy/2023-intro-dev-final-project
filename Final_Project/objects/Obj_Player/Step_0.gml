@@ -30,7 +30,7 @@ if(x_speed < 0 && !keyboard_check(ord("A")))
 }
 
 //fall on ground when player on the air
-if(place_meeting(x,y + 5,Obj_ground))
+if(place_meeting(x,y + 5,Obj_ground) || place_meeting(x,y + 5,Obj_plstform))
 {
 	y_speed = 0;
 	jump_time = true;
