@@ -1,7 +1,7 @@
 {
   "resourceType": "GMParticleSystem",
   "resourceVersion": "1.0",
-  "name": "PS_Hit2",
+  "name": "PS_Start_Ps",
   "backdropHeight": 768,
   "backdropImageOpacity": 0.5,
   "backdropImagePath": "",
