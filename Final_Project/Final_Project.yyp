@@ -56,6 +56,7 @@
     {"id":{"name":"Spr_testtile","path":"sprites/Spr_testtile/Spr_testtile.yy",},},
     {"id":{"name":"Obj_nut_left","path":"objects/Obj_nut_left/Obj_nut_left.yy",},},
     {"id":{"name":"Spr_enemy_attack","path":"sprites/Spr_enemy_attack/Spr_enemy_attack.yy",},},
+    {"id":{"name":"Rm_trainning_room","path":"rooms/Rm_trainning_room/Rm_trainning_room.yy",},},
     {"id":{"name":"PS_Circle","path":"particles/PS_Circle/PS_Circle.yy",},},
     {"id":{"name":"Spr_platform","path":"sprites/Spr_platform/Spr_platform.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Rm_trainning_room","path":"rooms/Rm_trainning_room/Rm_trainning_room.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [

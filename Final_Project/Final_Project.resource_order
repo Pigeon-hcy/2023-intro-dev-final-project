@@ -35,6 +35,7 @@
     {"name":"Spr_testtile","order":9,"path":"sprites/Spr_testtile/Spr_testtile.yy",},
     {"name":"Obj_nut_left","order":4,"path":"objects/Obj_nut_left/Obj_nut_left.yy",},
     {"name":"Spr_enemy_attack","order":6,"path":"sprites/Spr_enemy_attack/Spr_enemy_attack.yy",},
+    {"name":"Rm_trainning_room","order":1,"path":"rooms/Rm_trainning_room/Rm_trainning_room.yy",},
     {"name":"PS_Circle","order":2,"path":"particles/PS_Circle/PS_Circle.yy",},
     {"name":"Spr_platform","order":3,"path":"sprites/Spr_platform/Spr_platform.yy",},
   ],
