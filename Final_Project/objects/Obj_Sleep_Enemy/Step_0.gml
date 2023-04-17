@@ -53,9 +53,7 @@ if(follow && !place_meeting(x + move_speed,y,Obj_wall) || on_hit && !place_meeti
 //trigger something when hp is lower than 0
 if(HP < 0)
 {
-	alarm[0] = 1.5;
-	//effect_1 is screen shake
-	layer_set_visible("Effect_1",true);
-	
+	Obj_shake.time = 10;
+	instance_destroy();
 }
 
