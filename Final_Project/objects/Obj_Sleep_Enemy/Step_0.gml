@@ -44,7 +44,8 @@ if(!notice)
 }
 
 //change the ai after player get too close
-if(follow && !place_meeting(x + move_speed,y,Obj_wall) || on_hit && !place_meeting(x + move_speed,y,Obj_wall))
+if(follow && !place_meeting(x + move_speed,y,Obj_wall) 
+|| on_hit && !place_meeting(x + move_speed,y,Obj_wall))
 {
 	x += move_speed;
 	sprite_index = Spr_enemy_attack;
@@ -57,3 +58,7 @@ if(HP < 0)
 	instance_destroy();
 }
 
+if(place_meeting(x + move_speed,y,Obj_enemy_wall))
+{
+	move_speed = move_speed * -1
+}
