@@ -58,7 +58,3 @@ if(HP < 0)
 	instance_destroy();
 }
 
-if(place_meeting(x + move_speed,y,Obj_enemy_wall))
-{
-	move_speed = move_speed * -1
-}

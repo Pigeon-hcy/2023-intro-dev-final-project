@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_enemy_wall",
+  "name": "Obj_blocker",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "Spr_enemy_wall",
-    "path": "sprites/Spr_enemy_wall/Spr_enemy_wall.yy",
+    "name": "Spr_blocker",
+    "path": "sprites/Spr_blocker/Spr_blocker.yy",
   },
   "spriteMaskId": null,
   "visible": false,
