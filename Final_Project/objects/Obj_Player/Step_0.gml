@@ -30,7 +30,7 @@ if(x_speed < 0 && !keyboard_check(ord("A")))
 }
 
 //fall on ground when player on the air
-if(place_meeting(x,y + 5,Obj_ground) || place_meeting(x,y + 5,Obj_plstform))
+if((place_meeting(x,y - y_speed,Obj_ground) || place_meeting(x,y - y_speed,Obj_plstform)) && y_speed <= 0)
 {
 	y_speed = 0;
 	jump_time = true;
@@ -51,4 +51,9 @@ if(y > room_height + 50)
 	y = room_height /2
 }
 
-show_debug_message(player_direction);
+show_debug_message(player_bounce);
+
+//player_bounce reset
+if(x_speed = 0) {
+	player_bounce = false;
+}

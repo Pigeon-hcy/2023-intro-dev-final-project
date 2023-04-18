@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "collision boxes",
+    "path": "folders/Sprites/collision boxes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

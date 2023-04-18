@@ -26,6 +26,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"enemy","folderPath":"folders/Sprites/enemy.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"collision boxes","folderPath":"folders/Sprites/collision boxes.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -76,8 +78,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Rm_white_house","path":"rooms/Rm_white_house/Rm_white_house.yy",},},
     {"roomId":{"name":"Rm_trainning_room","path":"rooms/Rm_trainning_room/Rm_trainning_room.yy",},},
+    {"roomId":{"name":"Rm_white_house","path":"rooms/Rm_white_house/Rm_white_house.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [

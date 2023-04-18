@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Spr_platform",
-  "bbox_bottom": 5,
+  "bbox_bottom": 0,
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "collision boxes",
+    "path": "folders/Sprites/collision boxes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

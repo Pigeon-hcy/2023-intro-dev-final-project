@@ -6,3 +6,5 @@ y_speed = 0
 jump_time = true;
 //direction of player
 player_direction = "R";
+//weather the player is actively bouncing off an object:
+player_bounce = false;
