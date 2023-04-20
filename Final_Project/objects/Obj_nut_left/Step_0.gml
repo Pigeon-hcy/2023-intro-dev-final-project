@@ -21,4 +21,3 @@ if (x_speed = 0 || life_time = 0)
 {
 	instance_destroy();
 }
-
