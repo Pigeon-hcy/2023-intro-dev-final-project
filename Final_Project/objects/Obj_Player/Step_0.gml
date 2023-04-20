@@ -57,3 +57,25 @@ show_debug_message(player_bounce);
 if(x_speed = 0) {
 	player_bounce = false;
 }
+
+
+//player sprites
+
+
+if(x_speed == 0) {
+	sprite_index = spr_player_idle;
+	image_yscale = 1/3;
+	if(player_direction = "R") {
+		image_xscale = 1/3;
+	} else if(player_direction = "L") {
+		image_xscale = -1/3;
+	}
+} else if(x_speed > 0) {
+	sprite_index = spr_player_run;
+	image_xscale = 1/6;
+	image_yscale = 1/6;
+} else if(x_speed < 0) {
+	sprite_index = spr_player_run;
+	image_xscale = -1/6;
+	image_yscale = 1/6
+}
