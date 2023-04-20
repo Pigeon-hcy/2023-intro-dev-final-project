@@ -17,6 +17,7 @@
     {"name":"enemy","order":16,"path":"folders/Sprites/enemy.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"player","order":18,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Spr_fly","order":3,"path":"sprites/Spr_fly/Spr_fly.yy",},
@@ -24,6 +25,7 @@
     {"name":"Spr_wall","order":2,"path":"sprites/Spr_wall/Spr_wall.yy",},
     {"name":"Obj_blocker","order":13,"path":"objects/Obj_blocker/Obj_blocker.yy",},
     {"name":"PS_Start_Ps","order":1,"path":"particles/PS_Start_Ps/PS_Start_Ps.yy",},
+    {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Obj_fly","order":8,"path":"objects/Obj_fly/Obj_fly.yy",},
     {"name":"Obj_coin","order":6,"path":"objects/Obj_coin/Obj_coin.yy",},
     {"name":"Obj_nut_right","order":3,"path":"objects/Obj_nut_right/Obj_nut_right.yy",},
