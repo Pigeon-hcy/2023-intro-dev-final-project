@@ -15,9 +15,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"collision boxes","order":17,"path":"folders/Sprites/collision boxes.yy",},
     {"name":"enemy","order":16,"path":"folders/Sprites/enemy.yy",},
+    {"name":"player","order":18,"path":"folders/Sprites/player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"player","order":18,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Spr_fly","order":3,"path":"sprites/Spr_fly/Spr_fly.yy",},
